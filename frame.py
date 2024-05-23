@@ -1,6 +1,6 @@
 from airtest.core.api import *
 import sys
 
-import initialization
+from .operate_api.initialization import initialization
 
 initialization.initialization()
